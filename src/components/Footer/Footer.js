@@ -8,7 +8,7 @@ import './Footer.css'
 
 const Footer = () => (
   <footer>
-    &copy; Prime Digital Academy
+    &copy; Stewardship Exchange 2020 || <a href="mailto:techissues@stewardshipexchange.com">techissues@stewardshipexchange.com</a>
   </footer>
 );
 
