@@ -13,13 +13,12 @@ import Footer from '../Footer/Footer';
 
 import ProtectedRoute from '../ProtectedRoute/ProtectedRoute'
 
-import AboutPage from '../AboutPage/AboutPage';
-import UserPage from '../UserPage/UserPage';
-import InfoPage from '../InfoPage/InfoPage';
-import LandingPage from '../LandingPage/LandingPage';
-import LoginPage from '../LoginPage/LoginPage';
-import RegisterPage from '../RegisterPage/RegisterPage';
-
+import AboutPage from '../pages/AboutPage';
+import UserPage from '../pages/UserPage';
+import InfoPage from '../pages/InfoPage';
+import LandingPage from '../pages/LandingPage';
+import LoginPage from '../pages/LoginPage'; 
+import RegisterPage from '../pages/RegisterPage';
 import './App.css';
 
 class App extends Component {
