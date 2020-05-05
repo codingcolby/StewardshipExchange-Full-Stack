@@ -6,7 +6,6 @@ We **STRONGLY** recommend following these instructions carefully. It's a lot, an
 
 ## Development Setup Instructions
 
-
 * Start postgres if not running already by using `brew services start postgresql`
 * Run `npm run server`
 * Run `npm run client`
