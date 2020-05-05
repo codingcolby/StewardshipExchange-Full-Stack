@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import mapStoreToProps from '../../redux/mapStoreToProps';
 
-import '../styles/LandingPage.css';
+import '../styles/HomePage.css';
 
-class LandingPage extends Component {
+class HomePage extends Component {
     state = {
-        heading: 'Class Component',
+        heading: 'Welcome to the Stewardship Exchange',
     };
 
     onLogin = (event) => {
@@ -47,4 +47,4 @@ class LandingPage extends Component {
     }
 }
 
-export default connect(mapStoreToProps)(LandingPage);
+export default connect(mapStoreToProps)(HomePage);
