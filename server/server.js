@@ -1,7 +1,7 @@
 
 const express = require('express');
-const dotenv = require('dotenv').config();
-const bcrypt = require('bcrypt');
+require('dotenv').config({ path: '.env' });
+
 
 const app = express();
 const bodyParser = require('body-parser');
