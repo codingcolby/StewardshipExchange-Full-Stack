@@ -9,8 +9,12 @@ class HomePage extends Component {
         heading: 'Welcome to the Stewardship Exchange',
     };
 
-    onLogin = (event) => {
-        this.props.history.push('/login');
+    // onLogin = (event) => {
+    //     this.props.history.push('/login');
+    // }
+
+    onRegister = (event) => {
+        this.props.history.push('/register');
     }
 
     render() {
@@ -33,13 +37,14 @@ class HomePage extends Component {
                         </p>
                     </div>
                     <div className="grid-col grid-col_4">
-                        <h3>Already a Member?</h3>
-                        <button
+                        <h4>Looking for full offer detail and contact information?</h4>
+                        <p className="reglink" onClick={this.onRegister}>Registration is free!</p>
+                        {/* <button
                             className="btn btn_sizeFull"
                             onClick={this.onLogin}
                         >
                             Login
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>

@@ -72,7 +72,7 @@ class App extends Component {
             />
             <ProtectedRoute
               exact
-              path="/registration"
+              path="/register"
               authRedirect="/admin"
               component={RegisterPage}
             />
